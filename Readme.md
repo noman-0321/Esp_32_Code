@@ -39,3 +39,24 @@ Before uploading the code, make sure to install these libraries via the **Arduin
    #define FIREBASE_Authorization_key "your-secret-key"
    #define WIFI_SSID "your-wifi-name"
    #define WIFI_PASSWORD "your-wifi-password"
+
+## ⚙️ Sensor Configuration (MAX30102)
+byte ledBrightness = 60;   // LED intensity (0–255)
+byte sampleAverage = 4;    // Averages: 1, 2, 4, 8, 16, 32
+byte ledMode = 2;          // 1 = Red only, 2 = Red + IR, 3 = Red + IR + Green
+byte sampleRate = 100;     // Sample rate (Hz)
+int pulseWidth = 411;      // Pulse width: 69–411
+int adcRange = 4096;       // ADC range: 2048–16384
+
+## 🚀 Uploading the Code
+
+Open Arduino IDE.
+Install ESP32 board support from Boards Manager if not done yet.
+Select your board:
+Tools > Board > ESP32 Dev Module
+Choose the correct COM port.
+Paste the provided code into Arduino IDE.
+Replace WiFi and Firebase credentials.
+Click Upload.
+
+## Viola, It will take soe time to upload the code
