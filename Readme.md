@@ -59,5 +59,6 @@ Paste the provided code into Arduino IDE.
 Replace WiFi and Firebase credentials.
 Click Upload.
 
-## Viola, It will take soe time to upload the code
+## Viola, It will take some time to upload the code
+
 
